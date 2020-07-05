@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+.front{
+    height: 60vh;
+    border: 0px solid black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+#homepage .profile-img {
+    width: 260px;
+    height:260px;
+    border-radius: 10%;
+    align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+}
+
+#homepage h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+/* Add everything below here */
+
+#homepage {
+    background-image:linear-gradient(rgba(255,255,255,0.75),rgba(10,55,255,0.75)), url("../img/studio.jpg");
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(70,255,255,0.75)), url('../img/studio1.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(55,255,255,0.75),rgba(80,155,255,3.0)), url('../img/studio2.jpg');
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 11%;
+  padding: 15px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: darkblue;
+  
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
